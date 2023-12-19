@@ -33,10 +33,10 @@
         },
         {
             "name": "ShowMania",
-            "bundleIdentifier": "com.example.anotherapp",
+            "bundleIdentifier": "com.cypwn.O3C.showmania",
             "developerName": "O3C",
-            "subtitle": "Another awesome app.",
-            "localizedDescription": "This is another awesome app only available on AltStore.",
+            "subtitle": "Movie App with everything without a downside.",
+            "localizedDescription": "From the creators of HDO Box cracked by O3C",
             "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
             "tintColor": "#3660A2",
             "screenshots": [
@@ -47,7 +47,7 @@
                 {
                     "version": "1.5",
                     "date": "2023-05-21T09:00:00-08:00",
-                    "downloadURL": "https://raw.githubusercontent.com/Oectect/Items/main/ShowMania_1.0.5_nofunforthem.ipa",
+                    "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
                     "localizedDescription": "No ads but couldn’t remove the tracking so click don’t allowed.-O3C",
                     "size": 13840000
                 }
