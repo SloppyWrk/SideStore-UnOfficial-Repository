@@ -3,7 +3,7 @@
     "subtitle": "The Ideal Source",
     "description": "The rules don't follow if the rules follow blindly.",
     "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron.png",
-    "headerURL": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/blob/main/IMG/SideIron%5Bbackdrop%5D.png?raw=true",
+    "headerURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron%5Bbackdrop%5D.png",
     "website": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/",
     "tintColor": "#3b96db",
     "apps": [
@@ -22,14 +22,15 @@
 		"https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
             ],
             "versions": [
-	{
-      "version" : "10.7-4.0",
-      "versionDate" : "2023-09-24",
-      "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
-      "versionDescription" : "• Fix crashing in downloading longer video and freezing using FFmpeg.\n• New option to hide bookmark button.",
-      "size" : 92700000,
-	}
+	        {
+                    "version" : "10.7-4.0",
+                    "versionDate" : "2023-09-24",
+                    "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
+                    "versionDescription" : "• Fix crashing in downloading longer video and freezing using FFmpeg.\n• New option to hide bookmark button.",
+                    "size" : 92700000
+	        }
 	    ]
+        },
         {
             "name": "ShowMania",
             "bundleIdentifier": "com.example.anotherapp",
@@ -39,10 +40,9 @@
             "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
             "tintColor": "#3660A2",
             "screenshots": [
-                    "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
-                    "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
-                ],
-            },
+                "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
+                "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
+            ],
             "versions": [
                 {
                     "version": "1.5",
@@ -51,4 +51,7 @@
                     "localizedDescription": "No ads but couldn’t remove the tracking so click don’t allowed.-O3C",
                     "size": 13840000
                 }
+            ]
+        }
+    ]
 }
