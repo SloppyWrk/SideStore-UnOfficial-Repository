@@ -11,8 +11,8 @@
       "developerName": "O3C",
       "version": "1.0.5",
       "versionDate": "2023-05-12T23:59:49Z",
-      "versionDescription": "# v1.0.2=5\n\n",
-      "downloadURL": "https://github.com/QuarkSources/ppsspp-builder/releases/download/v1.13.2/PPSSPP_v1.13.2.ipa",
+      "versionDescription": "# v1.0.5\n\n",
+      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
       "localizedDescription": "From the creators of HDO Box cracked by O3C",
       "iconURL": "https://i.imgur.com/tHSYAwS.jpg",
       "tintColor": "#5F1B09",
@@ -26,9 +26,9 @@
       "appID": "com.cypwn.O3C.showmaina",
       "versions": [
         {
-          "version": "1.13.2",
+          "version": "1.0.5",
           "date": "2022-09-18T23:59:49Z",
-          "downloadURL": "https://raw.githubusercontent.com/Oectect/Items/main/ShowMania_1.0.5_nofunforthem.ipa",
+          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/ShowMania_1.0.5_1702971015.ipa",
           "localizedDescription": "# v1.0.5\n\n",
           "size": 13840000,
           "absoluteVersion": "1.0.5"
