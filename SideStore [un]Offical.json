@@ -21,31 +21,13 @@
 		"https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
 		"https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
             ],
-            "versions": ]
+            "versions": [
       "version" : "10.7-4.0",
       "versionDate" : "2023-09-24",
       "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
       "versionDescription" : "• Fix crashing in downloading longer video and freezing using FFmpeg.\n• New option to hide bookmark button.",
       "size" : 92700000,
-      "versions" : [
-        {
-          "version" : "10.7-4.0",
-          "date" : "2023-09-24",
-          "localizedDescription" : "• Updated Twitter to X v10.7\n• Updated BHTwitter to BHX v4.0",
-          "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
-      "versionDescription",
-          "size" : 92700000
-        },
-        {
-          "version" : "9.63-3.9.1",
-          "date" : "2023-07-04",
-          "localizedDescription" : "• Updated Twitter to v9.63",
-          "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
-      "versionDescription",
-          "size" : 96647250
-        }
-      ],
-      "beta" : false
+	    ]
 	},
         {
             "name": "ShowMania",
