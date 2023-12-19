@@ -2,14 +2,10 @@
     "name": "SideStore [un]Offical",
     "subtitle": "The Ideal Source",
     "description": "The rules don't follow if the rules follow blindly.",
-    "iconURL": "https://placeholder.com",
-    "headerURL": "https://placeholder.com",",
-    "website": "https://placeholder.com",",
+    "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron.png",
+    "headerURL": "https://github.com/Kare-wa-sunde-iru/iOS-app-repository/blob/main/IMG/SideIron%5Bbackdrop%5D.png?raw=true",
+    "website": "https://kare-wa-sunde-iru.github.io/iOS-app-repository/",
     "tintColor": "#3b96db",
-    "featuredApps": [
-        "com.example.myapp",
-        "com.example.anotherapp"
-    ],
     "apps": [
         {
             "name": "BHTwitter",
@@ -70,8 +66,7 @@
                     "date": "2023-05-21T09:00:00-08:00",
                     "downloadURL": "https://raw.githubusercontent.com/Oectect/Items/main/ShowMania_1.0.5_nofunforthem.ipa",
                     "localizedDescription": "No ads but couldn’t remove the tracking so click don’t allowed.-O3C",
-                    "size": 13840000,
-                    "minOSVersion": "13.0"
+                    "size": 13840000
                 }
             }
         }
