@@ -6,7 +6,7 @@
   "headerURL": "https://example.com/source_header.png",
   "website": "https://example.com",
   "patreonURL": "https://patreon.com/mycampaign"
-  "tintColor": "#F54F32",
+  "tintColor": "#F54F32"
   "featuredApps": [
     "com.example.myapp",
     "com.example.anotherapp"
