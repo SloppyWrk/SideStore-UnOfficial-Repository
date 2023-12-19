@@ -7,7 +7,7 @@
   "apps": [
     {
       "name": "ShowMaina",
-      "bundleIdentifier": "com.cypwn.O3C.showmaina",
+      "bundleIdentifier": "com.cypwn.O3C.showmania",
       "developerName": "O3C",
       "version": "1.0.5",
       "versionDate": "2023-05-12T23:59:49Z",
@@ -23,7 +23,7 @@
             ],
       "subtitle": "Movie app.",
       "absoluteVersion": "1.0.5",
-      "appID": "com.cypwn.O3C.showmaina",
+      "appID": "com.cypwn.O3C.showmania",
       "versions": [
         {
           "version": "1.0.5",
