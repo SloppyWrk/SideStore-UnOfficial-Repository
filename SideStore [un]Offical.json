@@ -1,0 +1,79 @@
+{
+    "name": "SideStore [un]Offical",
+    "subtitle": "The Ideal Source",
+    "description": "The rules don't follow if the rules follow blindly.",
+    "iconURL": "https://placeholder.com",
+    "headerURL": "https://placeholder.com",",
+    "website": "https://placeholder.com",",
+    "tintColor": "#3b96db",
+    "featuredApps": [
+        "com.example.myapp",
+        "com.example.anotherapp"
+    ],
+    "apps": [
+        {
+            "name": "BHTwitter",
+            "bundleIdentifier": "com.atebits.Tweetie2",
+            "developerName": "BandarHL",
+            "subtitle": "Awesome tweak for Twitter.",
+            "localizedDescription": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3d/38/57/3d38572c-dc1e-a672-93d2-cef92ca90297/ProductionAppIcon-1x_U007emarketing-0-7-0-0-0-85-220.png/512x512bb.jpg",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/1.png",
+                "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/2.png",
+		"https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
+		"https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
+            ],
+            "versions": ],
+      "version" : "10.7-4.0",
+      "versionDate" : "2023-09-24",
+      "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
+      "versionDescription" : "• Fix crashing in downloading longer video and freezing using FFmpeg.\n• New option to hide bookmark button.",
+      "size" : 92700000,
+      "versions" : [
+        {
+          "version" : "10.7-4.0",
+          "date" : "2023-09-24",
+          "localizedDescription" : "• Updated Twitter to X v10.7\n• Updated BHTwitter to BHX v4.0",
+          "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
+      "versionDescription",
+          "size" : 92700000
+        },
+        {
+          "version" : "9.63-3.9.1",
+          "date" : "2023-07-04",
+          "localizedDescription" : "• Updated Twitter to v9.63",
+          "downloadURL" : "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
+      "versionDescription",
+          "size" : 96647250
+        }
+      ],
+      "beta" : false
+	},
+        {
+            "name": "ShowMania",
+            "bundleIdentifier": "com.example.anotherapp",
+            "developerName": "O3C",
+            "subtitle": "Another awesome app.",
+            "localizedDescription": "This is another awesome app only available on AltStore.",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
+            "tintColor": "#3660A2",
+            "screenshots": [
+                    "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
+                    "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
+                ],
+            },
+            "versions": [
+                {
+                    "version": "1.5",
+                    "date": "2023-05-21T09:00:00-08:00",
+                    "downloadURL": "https://raw.githubusercontent.com/Oectect/Items/main/ShowMania_1.0.5_nofunforthem.ipa",
+                    "localizedDescription": "No ads but couldn’t remove the tracking so click don’t allowed.-O3C",
+                    "size": 13840000,
+                    "minOSVersion": "13.0"
+                }
+            }
+        }
+    ]
+}
