@@ -1,7 +1,7 @@
 {
     "name": "SideStore [un]Offical",
     "identifier": "com.unSideStore.unSideStore",
-    "subtitle": "The Ideal Source",
+    "subtitle": "com.unSideStore.unSideStore",
     "description": "The rules don't follow if the rules follow blindly.",
     "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron.png",
     "headerURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/SideIron%5Bbackdrop%5D.png",
@@ -54,5 +54,15 @@
                 }
             ]
         }
-    ]
+    ],
+  "news": [
+    {
+      "title": "Showmaina",
+      "identifier": "com.cypwn.O3C.showmania",
+      "caption": "Showmaina is currently the only software. Expect bugs, and look for work arounds",
+      "tintColor": "FF0F0F",
+      "date": "2050-01-01",
+      "notify": false
+    }
+  ]
 }
