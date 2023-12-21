@@ -21,7 +21,7 @@
 		"https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa655.png",
                 "https://ipa.cypwn.xyz/serve/screenshots/DramaFlix_1.1.0/DramaFlix_1.1.0.ipa106.png"
             ],
-      "subtitle": "Movie app.",
+      "subtitle": "Movie App",
       "absoluteVersion": "1.0.5",
       "appID": "com.cypwn.O3C.showmania",
       "versions": [
@@ -837,7 +837,7 @@
       "date": "2022-01-10",
       "notify": false
     },
-  ],
+  ]
   "version": 2,
   "apiVersion": "v2"
 }
