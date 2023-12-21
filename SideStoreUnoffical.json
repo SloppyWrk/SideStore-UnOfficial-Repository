@@ -73,7 +73,7 @@
       "developerName": "BandarHL",
       "subtitle": "Awesome tweak for Twitter",
       "version": "10.20",
-      "versionDate": "2023-12-17",
+      "versionDate": "2023-12-17T23:59:49Z",
       "versionDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button.",
       "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
       "localizedDescription": "Download Videos (even if account private).\nCustom Tab Bar\nNo history feature.\nHide topics tweet feature.\nDisable video layer caption.\nPadlock.\nFont changer.\nEnable the new UI of DM search.\nAuto load photos in highest quality feature.\nUndo tweet feature.\nTheme (like Twitter Blue).\nApp icon changer\nTwitter Circle feature.\nCopying profile information feature.\nSave tweet as an image.\nHide spaces bar.\nDisable RTL.\nAlways open in Safari.\nTranslate bio.\nDisable new tweet style (A.K.A edge to edge tweet)\nEnable voice tweet and voice message in DM.\nHide promoted tweet from the timeline.\nConfirm alert when hit the tweet button.\nConfirm alert when hit like button.\nConfirm alert when hit follow button.\nFLEX for debugging.",
