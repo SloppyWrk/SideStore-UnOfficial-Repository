@@ -762,49 +762,58 @@
       }
     },
     {
-      "name": "3Speak.tv - Acela",
-      "bundleIdentifier": "com.example.acela",
-      "developerName": "sagarkothari88",
-      "subtitle": "Tokenized Video Communities",
-      "version": "1.0.3",
-      "versionDate": "2022-12-08",
-      "versionDescription": "https://ecency.com/hive-181335/@sagarkothari88/3speak-development-update-from-sagarkothari88-7cd51a3b88448",
-      "downloadURL": "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/Runner.ipa",
-      "localizedDescription": "The build which was also submitted to the Apple for TestFlight review",
-      "iconURL": "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/AppIcon-512.png",
-      "tintColor": "AFEEEE",
-      "size": 857669,
-      "permissions": [],
+      "name": "Streamer",
+      "bundleIdentifier": "com.streamer.ios",
+      "developerName": "StreamerApp",
+      "subtitle": "App for Streaming Movies and TV shows",
+      "version": "1.2.27",
+      "versionDate": "2023-11-11",
+      "versionDescription": "Implemented VLC and Infuse players integration \nImproved Real-Debrid integration performance and accuracy \nAdded a feature to choose “priority foreign language” for torrents in Real-Debrid\nResolved PIP issue for Apple TV\nResolved crash when tapping on the play button on the movie details page on Apple TV\nAdded provider logos to the favorites list\nUnified subtitle parsing logic and removed extra HTML tags from all subtitles\nResolved issue when playing a completed episode\nResolved issues for movies or TV shows with incorrect data for the same title",
+      "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/Streamer.ipa",
+      "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n\nSupported providers:\n-🇺🇸 MovieBoxPro (Streamer Pro users only): 4k English content with multi-language subtitles\n-🇺🇸 Flixtor.video: English content with multi-language subtitles and HQ streaming\n-🇺🇸 FlixHQ.to: English content\n-🇺🇸 PutLocker.vip: English content\n-🇺🇸 123moviesfree.so: English content with English subtitles\n-🇩🇪 KinoKiste.club: German content\n-🇩🇪 FilmPalast.to: German content\n-🇸🇦 Akwam.to: Arabic content\n-🇸🇦 CimaNow.cc: Arabic content\n-🇸🇦 Arabseed.ink: Arabic content\n-🇸🇦 FaselHD.vip: Arabic content\n-🇰🇷 ViewAsian.co: Asian content\n-🇯🇵 Kaido.to: Anime content\n-🇯🇵 GogoAnimeHD.to: Anime content\n\n More Info:\n https://github.com/StreamerApp/Streamer",
+      "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4"",
+      "tintColor": "5e5e5e",
+      "size": 21300000,
+      "permissions": [
+	{
+	"type": "LocalNetwork",
+	"usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your network."
+	},
+	{
+	"type": "UserTracking",
+	"usageDescription": "App would like to access IDFA for ad tracking purpose but you can opt-out."
+	}
+      ],
       "screenshotURLs": [
-        "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/IMG_5651.PNG",
-        "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/IMG_5652.PNG",
-        "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/IMG_5653.PNG",
-        "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/IMG_5654.PNG",
-        "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/IMG_5655.PNG"
+        "https://user-images.githubusercontent.com/96978272/257918803-1f5cc49f-bc36-4be1-ac38-8da48aa4d715.png",
+	"https://user-images.githubusercontent.com/96978272/257918796-072f6b5c-f51b-4681-b9ed-ab1b1ec7392e.png",
+	"https://user-images.githubusercontent.com/96978272/257918785-a8097992-bf83-41ed-afbf-85910d09b769.png",
+	"https://user-images.githubusercontent.com/96978272/257920592-d1f9f2f9-c35e-428f-afab-e9bcea356a28.png",
+	"https://user-images.githubusercontent.com/96978272/257918801-0c70e4de-bbe9-485e-8516-4133f0c0a75e.png",
+	"https://user-images.githubusercontent.com/96978272/257918798-4e78c4fb-d0c6-4c3f-91bb-817d7a2805df.png"
       ],
       "beta": false,
       "versions": [
         {
-          "version": "1.0.3",
-          "date": "2022-12-08",
-          "downloadURL": "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/Runner.ipa",
-          "localizedDescription": "https://ecency.com/hive-181335/@sagarkothari88/3speak-development-update-from-sagarkothari88-7cd51a3b88448",
-          "size": 857669
+          "version": "1.2.27",
+          "date": "2023-11-11",
+          "downloadURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/Apps/Streamer.ipa",
+          "localizedDescription": "Implemented VLC and Infuse players integration \nImproved Real-Debrid integration performance and accuracy \nAdded a feature to choose “priority foreign language” for torrents in Real-Debrid\nResolved PIP issue for Apple TV\nResolved crash when tapping on the play button on the movie details page on Apple TV\nAdded provider logos to the favorites list\nUnified subtitle parsing logic and removed extra HTML tags from all subtitles\nResolved issue when playing a completed episode\nResolved issues for movies or TV shows with incorrect data for the same title",
+          "size": 21300000
         }
       ],
-      "appID": "com.example.acela"
+      "appID": "com.streamer.ios"
     }
   ],
   "news": [
     {
-      "title": "unc0ver 5.0.0 OUT NOW!",
-      "identifier": "uncover-v5-release",
-      "caption": "The most advanced jailbreak tool yet. Now supporting iOS 11-13.5",
-      "tintColor": "#505050",
-      "imageURL": "https://i.imgur.com/DahJIZv.png",
-      "appID": "science.xnu.undecimus",
-      "date": "2020-05-23",
-      "notify": false
+      "title": "How to sideload any app!",
+      "identifier": "sideloading-is-here",
+      "caption": "Install any iOS app directly from Files by tapping the + in the My Apps tab.",
+      "tintColor": "018084",
+      "imageURL": "https://user-images.githubusercontent.com/705880/79022069-02932380-7b32-11ea-8bad-49907cb97ece.png",
+      "date": "2023-04-10T13:00:00-07:00",
+      "notify": true
     },
     {
       "title": "iNDS available for download.",
@@ -814,36 +823,6 @@
       "imageURL": "https://i.imgur.com/fEfCDDt.png",
       "appID": "net.nerd.iNDS",
       "date": "2020-03-26",
-      "notify": false
-    },
-    {
-      "title": "iTorrent Now Available",
-      "identifier": "itorrent-available-download",
-      "caption": "Simple and straightforward torrenting for iOS.",
-      "tintColor": "#e32b3c",
-      "imageURL": "https://i.imgur.com/LAVDwAh.png",
-      "appID": "ru.nonamedude.iTorrent",
-      "date": "2020-03-24",
-      "notify": false
-    },
-    {
-      "title": "unc0ver out now!",
-      "identifier": "uncover-available-download",
-      "caption": "The most advanced jailbreak tool yet. Tap to download.",
-      "tintColor": "#101216",
-      "imageURL": "https://i.imgur.com/YPJ2Hu3.png",
-      "appID": "science.xnu.undecimus",
-      "date": "2020-02-09",
-      "notify": false
-    },
-    {
-      "title": "Check out ScummVM!",
-      "identifier": "scummvm-first-release-altstore",
-      "caption": "Point and click adventures at your fingertips.",
-      "tintColor": "#bf6a27",
-      "imageURL": "https://i.imgur.com/5NW814R.png",
-      "appID": "org.scummvm.scummvm",
-      "date": "2020-05-09",
       "notify": false
     },
     {
@@ -857,26 +836,6 @@
       "notify": false
     },
     {
-      "title": "iDOS Now Available.",
-      "identifier": "idos-altstore-now-available",
-      "caption": "iDOS is now available through AltStore. Get ready to play the classics.",
-      "tintColor": "#777777",
-      "imageURL": "https://i.imgur.com/VG4OhtA.png",
-      "appID": "com.litchie.idosgames",
-      "date": "2021-01-02",
-      "notify": false
-    },
-    {
-      "title": "Taurine now available!",
-      "identifier": "taurine-release",
-      "caption": "Supports iOS 14.0-14.3",
-      "tintColor": "F65656",
-      "imageURL": "https://taurine.app/assets/images/meta.png",
-      "appID": "com.odysseyteam.taurine",
-      "date": "2021-04-01",
-      "notify": false
-    },
-    {
       "title": "OldOS now available!",
       "identifier": "oldos-release",
       "caption": "iOS 4 all rolled into one app!",
@@ -886,66 +845,6 @@
       "date": "2022-01-10",
       "notify": false
     },
-    {
-      "title": "More Trusted Sources!",
-      "identifier": "welcome-provenance-pojavlauncher",
-      "caption": "Please welcome Provenance and PojavLauncher to AltStore \ud83c\udf89",
-      "tintColor": "00A2FF",
-      "date": "2022-12-12",
-      "notify": true,
-      "imageURL": "https://user-images.githubusercontent.com/705880/207133455-1e851fd0-89ae-48f0-906f-8f86f4e394db.png"
-    },
-    {
-      "title": "blurt.blog - Download now - via AltStore",
-      "identifier": "blurt-blog-2023-01-01",
-      "caption": "Blurt.blog release via AltStore",
-      "date": "2023-01-01",
-      "tintColor": "8A28F7",
-      "imageURL": "https://gitlab.com/blurt/openblurt/blurt-mobile-app/-/raw/main/appstore-screenshots/512x512.png",
-      "url": "https://blurt.blog/blurt/@sagarkothari88/h350a80ssgii-ct0j-9x",
-      "appID": "blog.blurt.blurt",
-      "notify": true
-    },
-    {
-      "title": "3Speak.tv Acela - Download now - via AltStore",
-      "identifier": "3speak-tv-acela-download-2022-12-08",
-      "caption": "3Speak.tv Acela release via AltStore",
-      "date": "2022-12-08",
-      "tintColor": "afeeee",
-      "imageURL": "https://github.com/spknetwork/Android-App/releases/download/v1.0.3_48/AppIcon-512.png",
-      "url": "https://ecency.com/hive-181335/@sagarkothari88/3speak-development-update-from-sagarkothari88-7cd51a3b88448",
-      "appID": "com.example.acela",
-      "notify": true
-    },
-    {
-      "title": "How to sideload any app!",
-      "identifier": "sideloading-is-here",
-      "caption": "Install any iOS app directly from Files by tapping the + in the My Apps tab.",
-      "tintColor": "018084",
-      "imageURL": "https://user-images.githubusercontent.com/705880/79022069-02932380-7b32-11ea-8bad-49907cb97ece.png",
-      "date": "2023-04-10T13:00:00-07:00",
-      "notify": true
-    },
-    {
-      "title": "SideServer for macOS is now available!",
-      "identifier": "sideserver-1-5",
-      "caption": "Very easily re-install SideStore on macOS (keychain support added).",
-      "tintColor": "018084",
-      "imageURL": "https://user-images.githubusercontent.com/705880/166509576-744be578-6868-4b7d-b4fd-b9418c084327.png",
-      "url": "https://faq.altstore.io/release-notes/altserver",
-      "date": "2023-05-03",
-      "notify": true
-    },
-    {
-      "title": "Trusted Sources within SideStore!",
-      "identifier": "trusted-sources",
-      "caption": "Simply go to the Browse tab below to access app sources we vet and keep up to date.",
-      "tintColor": "00CAB3",
-      "imageURL": "https://user-images.githubusercontent.com/705880/167026375-ddcb004f-7160-405c-b3e3-87a6795d2f43.png",
-      "url": "https://faq.altstore.io/release-notes/altstore",
-      "date": "2023-05-05",
-      "notify": true
-    }
   ],
   "version": 2,
   "apiVersion": "v2"
