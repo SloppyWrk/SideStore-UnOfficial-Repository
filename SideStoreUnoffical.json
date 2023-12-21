@@ -68,42 +68,34 @@
       ]
     },
     {
-      "name": "RetroArch",
-      "bundleIdentifier": "com.libretro.RetroArchiOS11",
-      "developerName": "libretro",
-      "subtitle": "Cross-platform, sophisticated frontend for emulation.",
-      "version": "1.12.0",
-      "versionDate": "2022-10-17",
-      "versionDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-      "downloadURL": "https://buildbot.libretro.com/stable/1.12.0/apple/ios-arm64/RetroArch.ipa",
-      "localizedDescription": "RetroArch is a frontend for a plethora of emulators. Almost every Retro console can be run using one of RetroArch's downloadable cores.\n\nThere are several ways to customize your experience by installing different themes, rearranging your touchscreen controls, and downloading game box art.\nRetroArch enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nIn addition to this, you will soon be able to run original game discs (CDs) from RetroArch.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!\n\nCheck out all of RetroArch's awesome features at our website: https://www.retroarch.com/",
-      "iconURL": "https://i.imgur.com/pqgVB0v.png",
+      "name": "BHTwitter",
+      "bundleIdentifier": "com.atebis.Tweetie2",
+      "developerName": "BandarHL",
+      "subtitle": "Awesome tweak for Twitter",
+      "version": "10.20",
+      "versionDate": "2023-12-17",
+      "versionDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button.",
+      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
+      "localizedDescription": "Download Videos (even if account private).\nCustom Tab Bar\nNo history feature.\nHide topics tweet feature.\nDisable video layer caption.\nPadlock.\nFont changer.\nEnable the new UI of DM search.\nAuto load photos in highest quality feature.\nUndo tweet feature.\nTheme (like Twitter Blue).\nApp icon changer\nTwitter Circle feature.\nCopying profile information feature.\nSave tweet as an image.\nHide spaces bar.\nDisable RTL.\nAlways open in Safari.\nTranslate bio.\nDisable new tweet style (A.K.A edge to edge tweet)\nEnable voice tweet and voice message in DM.\nHide promoted tweet from the timeline.\nConfirm alert when hit the tweet button.\nConfirm alert when hit like button.\nConfirm alert when hit follow button.\nFLEX for debugging.",
+      "iconURL": "https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/IMG/%F0%9D%95%8F.png",
       "tintColor": "#000000",
-      "size": 435770036,
+      "size": 124000000,
       "screenshotURLs": [
-        "https://i.imgur.com/uv1x1c4.png",
-        "https://i.imgur.com/qJdyNl2.png",
-        "https://i.imgur.com/fijaR4n.png",
-        "https://i.imgur.com/B3J5zMB.png",
-        "https://i.imgur.com/4Mj77IY.png"
+        "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/1.png",
+        "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/2.png",
+        "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/3.png",
+        "https://raw.githubusercontent.com/BandarHL/BHTwitter/master/4.png"
       ],
       "versions": [
         {
-          "version": "1.12.0",
-          "date": "2022-10-18",
-          "downloadURL": "https://buildbot.libretro.com/stable/1.12.0/apple/ios-arm64/RetroArch.ipa",
-          "localizedDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-          "size": 255389680
-        },
-        {
-          "version": "1.9.0",
-          "date": "2020-08-07",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
-          "localizedDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-          "size": 255389680
+          "version": "10.20",
+          "date": "2023-12-177",
+          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
+          "localizedDescription": "Moved from Monkeydev to Theos\nConvert all swift files to Objective-c.\n Add new script to build BHTwitter project easily.\nSupport JB rootfull and rootless.\nFix crashing in downloading longer video and freezing using FFmpeg.\nNew option to hide bookmark button",
+          "size": 124000000
         }
       ],
-      "appID": "com.libretro.RetroArchiOS11"
+      "appID": "com.atebis.Tweetie2"
     },
     {
       "name": "Flappy Bird",
