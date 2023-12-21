@@ -826,18 +826,8 @@
       "appID": "com.virtualapplications.play",
       "date": "2020-04-04",
       "notify": false
-    },
-    {
-      "title": "OldOS now available!",
-      "identifier": "oldos-release",
-      "caption": "iOS 4 all rolled into one app!",
-      "tintColor": "251c21",
-      "imageURL": "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Header.jpg",
-      "appID": "com.zurac.OldOS",
-      "date": "2022-01-10",
-      "notify": false
-    },
-  ]
+    }
+  ],
   "version": 2,
   "apiVersion": "v2"
 }
