@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Load JSON file in HTML</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-      }
+<head>
+    <title>彼わ住んでいる's ウェブサイト</title>
+    <style id="theme-style">
+        /* Default to light mode */
+        body {
+            background-color: white;
+            color: black;
+        }
+        .card {
+            border: 1px solid #000;
+            padding: 10px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
     </style>
-  </head>
-  <body>
-    <h1>iOS-app-repository</h1>
-    <p>.json ファイルの iOS アプリ リポジトリ。 もしこれを読んでいる人がいたら、私は英語に少し慣れていません。 多くの都市の近くになかったので、私は良い教育を受けられませんでした。 コードをうまく書けるかはわかりませんが、人生が楽しいものになることを願っています。</p>
-    <h2>リポジトリ</h2>
-    <ul>
-      <li><a href="sidestore://source?url=https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/SideStoreUnoffical.json">SideStoreUnoffical.jsonn</a></li>
-    </ul>
+</head>
+<body>
+    <header>
+        <h1>彼わ住んでいる's ウェブサイト!</h1>
+        <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <div class="card" onclick="location.href='https://therealfoxster.github.io/altsource-viewer/view/?source=https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/SideStoreUnoffical.json';">
+        <h2>Source</h2>
+        <p>Cクリックしてビューアーに移動します。</p>
+    </div>
     <script>
-      fetch('SideStoreUnoffical.json')
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error(error));
+        const themeStylesheet = document.getElementById('theme-style');
+        const themeSwitch = document.getElementById('theme-switch');
+        themeSwitch.addEventListener('change', function(event){
+            // If the checkbox is checked, switch to dark mode
+            if(event.currentTarget.checked){
+                themeStylesheet.innerHTML = 'body { background-color: black; color: white; }';
+            } else {
+                // Otherwise, switch back to light mode
+                themeStylesheet.innerHTML = 'body { background-color: white; color: black; }';
+            }
+        });
     </script>
-  </body>
+</body>
 </html>
