@@ -39,10 +39,10 @@
         themeSwitch.addEventListener('change', function(event){
             // If the checkbox is checked, switch to dark mode
             if(event.currentTarget.checked){
-                themeStylesheet.innerHTML = 'body { background-color: black; color: white; }';
+                themeStylesheet.innerHTML = 'body { background-color: black; color: white; } .card:hover { background-color: #333; }';
             } else {
                 // Otherwise, switch back to light mode
-                themeStylesheet.innerHTML = 'body { background-color: white; color: black; }';
+                themeStylesheet.innerHTML = 'body { background-color: white; color: black; } .card:hover { background-color: #f0f0f0; }';
             }
         });
     </script>
