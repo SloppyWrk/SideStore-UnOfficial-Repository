@@ -12,7 +12,7 @@
             border: 1px solid #000;
             padding: 10px;
             margin: 10px;
-            transition: transform 0.3s;
+            transition: transform 0.5s; /* Increase transition duration */
         }
         .card:hover {
             background-color: #f0f0f0;
@@ -28,6 +28,7 @@
             <input type="checkbox" id="theme-switch">
             <span class="slider round"></span>
         </label>
+        <span id="theme-label">Check this box for dark mode</span>
     </header>
     <div class="card" onclick="location.href='https://therealfoxster.github.io/altsource-viewer/view/?source=https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/SideStoreUnoffical.json';">
         <h2>Source</h2>
@@ -36,15 +37,26 @@
     <script>
         const themeStylesheet = document.getElementById('theme-style');
         const themeSwitch = document.getElementById('theme-switch');
+        const themeLabel = document.getElementById('theme-label');
+        // Check if the user prefers dark mode
+        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        // If the user prefers dark mode, set the checkbox and theme accordingly
+        if (prefersDarkMode) {
+            themeSwitch.checked = true;
+            setTheme(true);
+        }
         themeSwitch.addEventListener('change', function(event){
-            // If the checkbox is checked, switch to dark mode
-            if(event.currentTarget.checked){
-                themeStylesheet.innerHTML = 'body { background-color: black; color: white; } .card:hover { background-color: #333; }';
-            } else {
-                // Otherwise, switch back to light mode
-                themeStylesheet.innerHTML = 'body { background-color: white; color: black; } .card:hover { background-color: #f0f0f0; }';
-            }
+            setTheme(event.currentTarget.checked);
         });
+        function setTheme(isDarkMode) {
+            if (isDarkMode) {
+                themeStylesheet.innerHTML = 'body { background-color: black; color: white; } .card { border: 1px solid #fff; transition: transform 1s; } .card:hover { background-color: #333; transform: scale(1.05); }';
+                themeLabel.innerHTML = 'ライトモードのためにこのボックスをチェックします/Uncheck this box for light mode';
+            } else {
+                themeStylesheet.innerHTML = 'body { background-color: white; color: black; } .card { border: 1px solid #000; transition: transform 0.5s; } .card:hover { background-color: #f0f0f0; transform: scale(1.05); }';
+                themeLabel.innerHTML = 'ライトモードについては、このボックスを確認してください/Check this box for dark mode';
+            }
+        }
     </script>
 </body>
 </html>
