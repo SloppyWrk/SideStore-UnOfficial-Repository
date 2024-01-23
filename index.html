@@ -1,62 +1,168 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>彼わ住んでいる's ウェブサイト</title>
-    <style id="theme-style">
-        /* Default to light mode */
-        body {
-            background-color: white;
-            color: black;
-        }
-        .card {
-            border: 1px solid #000;
-            padding: 10px;
-            margin: 10px;
-            transition: transform 0.5s; /* Increase transition duration */
-        }
-        .card:hover {
-            background-color: #f0f0f0;
-            cursor: pointer;
-            transform: scale(1.05);
-        }
-    </style>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLPZS35');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The most up-to-date sources on AltStore. Updated daily!">
+    <meta name="author" content="WuXu's Library">
+
+    <!-- Added meta tags for SEO -->
+    <meta name="keywords" content="AltStore, WuXu, Library, Apps, iOS">
+    <meta name="robots" content="index, follow">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="canonical" href="https://wuxu1.github.io/">
+
+    <title>WuXu's Sources: The most up-to-date AltStore sources</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet" type="text/css">
+
+  </head>
 <body>
-    <header>
-        <h1>彼わ住んでいる's ウェブサイト!</h1>
-        <label class="switch">
-            <input type="checkbox" id="theme-switch">
-            <span class="slider round"></span>
-        </label>
-        <span id="theme-label">Check this box for dark mode</span>
-    </header>
-    <div class="card" onclick="location.href='https://therealfoxster.github.io/altsource-viewer/view/?source=https://raw.githubusercontent.com/Kare-wa-sunde-iru/iOS-app-repository/main/SideStoreUnoffical.json';">
-        <h2>Source</h2>
-        <p>Cクリックしてビューアーに移動します。</p>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLPZS35"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header id="top">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <div class="social align-items-center mr-2">
+          <a href="https://bit.ly/wuxuslibrary-discord" class="fab fa-discord"></a>
+          <a href="https://bit.ly/wuxustwitter" class="fab fa-twitter"></a>
+          <a href="https://bit.ly/wuxuslibrary-github" class="fab fa-github"></a>
+        </div>
+      </div>
     </div>
-    <script>
-        const themeStylesheet = document.getElementById('theme-style');
-        const themeSwitch = document.getElementById('theme-switch');
-        const themeLabel = document.getElementById('theme-label');
-        // Check if the user prefers dark mode
-        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        // If the user prefers dark mode, set the checkbox and theme accordingly
-        if (prefersDarkMode) {
-            themeSwitch.checked = true;
-            setTheme(true);
-        }
-        themeSwitch.addEventListener('change', function(event){
-            setTheme(event.currentTarget.checked);
-        });
-        function setTheme(isDarkMode) {
-            if (isDarkMode) {
-                themeStylesheet.innerHTML = 'body { background-color: black; color: white; } .card { border: 1px solid #fff; transition: transform 1s; } .card:hover { background-color: #333; transform: scale(1.05); }';
-                themeLabel.innerHTML = 'ライトモードのためにこのボックスをチェックします/Uncheck this box for light mode';
-            } else {
-                themeStylesheet.innerHTML = 'body { background-color: white; color: black; } .card { border: 1px solid #000; transition: transform 0.5s; } .card:hover { background-color: #f0f0f0; transform: scale(1.05); }';
-                themeLabel.innerHTML = 'ライトモードについては、このボックスを確認してください/Check this box for dark mode';
-            }
-        }
-    </script>
+  </header>
+
+<main role="main" id="main">
+  
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="main-title">WuXu's Sources</h1>
+      <p class="lead text-muted"><strong>The most Up-To-Date IPA Libraries on AltStore</strong></p>
+      <p>
+        <a href="https://altstore.io" class="btn btn-primary my-2" target="_blank">Install AltStore</a>
+        <a href="#sources" class="btn btn-secondary my-2">Browse My Sources</a>
+      </p>
+    </div>
+  </section>
+
+
+  <div class="album py-5 bg-light" id="sources">
+    <div class="container">
+      <div class="row">
+
+<div class="col-md-6">
+  <div class="card mb-4 shadow-sm">
+    <img class="card-img img-fluid" width="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Thumbnail" alt="AltStore Source Thumbnail" src="./assets/wuxucomplete.png">
+    <div class="card-body text-center">
+      <p class="font-weight-bold">WuXu's Library</p>
+      <p class="card-text">Contains all your favourite emulators, games, jailbreaks, utilities, and more!</p>
+      <div class="btn-group justify-content-center" url="https://bit.ly/wuxuslibrary">
+        <button onclick="addToAltStore(this)" type="button" class="btn btn-sm btn-outline-secondary">Install</button>
+        <button onclick="copyToClipboard(this)" type="button" class="btn btn-sm btn-outline-secondary">Copy link</button>
+        <button onclick="browseSource(this)" type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="card mb-4 shadow-sm">
+    <img class="card-img img-fluid" width="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Thumbnail" alt="AltStore Source Thumbnail" src="./assets/wuxucomplete-plus.png">
+    <div class="card-body text-center">
+      <p class="font-weight-bold">WuXu's Library++</p>
+      <p class="card-text">Contains all your favourite tweaked apps, free streaming, cracked apps, and more!</p>
+      <div class="btn-group justify-content-center" url="https://bit.ly/wuxuslibraryplus">
+        <button onclick="addToAltStore(this)" type="button" class="btn btn-sm btn-outline-secondary">Install</button>
+        <button onclick="copyToClipboard(this)" type="button" class="btn btn-sm btn-outline-secondary">Copy link</button>
+        <button onclick="browseSource(this)" type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto text-center">
+      <div class="card mb-4 shadow-sm">
+        <img class="card-img img-fluid" width="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Thumbnail" alt="AltStore Source Thumbnail" src="./assets/altstore-complete.png">
+        <div class="card-body">
+          <p class="font-weight-bold">AltStore Complete</p>
+          <p class="card-text">This automatically updates from the official AltStore Sources and combines them all into one complete source!</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group text-center" url="https://bit.ly/altstore-complete">
+              <button onclick="addToAltStore(this)" type="button" class="btn btn-sm btn-outline-secondary">Install</button>
+              <button onclick="copyToClipboard(this)" type="button" class="btn btn-sm btn-outline-secondary">Copy link</button>
+              <button onclick="browseSource(this)" type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <h2 class="text-center display-4">FAQs</h2>
+      <div style="text-align: center;">
+    <hr class="solid my-4">
+    <h3>Can you add _________ (app) to WuXu's Library?</h3>
+    <p>Sure! You can make an app request through our discord! <a href="https://bit.ly/wuxuslibrary-discord">Join here</a></p>
+    <hr class="solid my-4">
+    <h3>Are the apps in WuXu's Library kept up-to-date?</h3>
+    <p>The majority of apps in each source are kept fully up-to-date by me! I update all apps (if there are any) once or twice a week. But you can mention it in the <a href="https://bit.ly/wuxuslibrary-discord">discord</a> and i'll try to get it done sooner!</p>
+    <hr class="solid my-4">
+    <h3>How do I add your sources to AltStore?</h3>
+    <p>You need the beta version of AltStore to add my sources to AltStore, but you can find more ways how to use the apps on my source on my <a href="https://bit.ly/wuxuslibrary-discord">discord</a>.</p>
+    <hr class="solid my-4">
+</div>
+    </div>
+  </div>
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p id="copyright">WuXu's Library &copy; All Rights Reserved</p>
+    <p>Not affiliated with AltStore in any way.</p>
+  </div>
+</footer>
+<script>
+  function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(element.parentElement.getAttribute("url")).select();
+    document.execCommand("copy");
+    $temp.remove();
+    element.textContent="Copied!";
+  }
+  function addToAltStore(element) {
+    window.open("altstore://source?URL=" + element.parentElement.getAttribute("url"));
+  }
+  function browseSource(element) {
+    window.open("https://altsource.by.lao.sb/browse/?source=" + encodeURIComponent(element.parentElement.getAttribute("url")));
+  }
+
+  document.getElementById("copyright").innerHTML = "WuXu's Library &copy; " + new Date().getFullYear() + " - All Rights Reserved";
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../resources/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../resources/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/24624db525.js" crossorigin="anonymous"></script>
 </body>
 </html>
