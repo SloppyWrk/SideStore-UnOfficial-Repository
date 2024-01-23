@@ -7,7 +7,45 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WLPZS35');</script>
-    <!-- End Google Tag Manager -->
+        <link href="custom.css" rel="stylesheet" type="text/css">
+
+    <style>
+      .form {
+        height: 1350px;
+      }
+
+      /* Light mode */
+      body.light-mode {
+        background-color: #ffffff;
+        color: #333333;
+      }
+
+      /* Dark mode */
+      body.dark-mode {
+        background-color: #333333;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+<body class="light-mode"> <!-- Set default mode to light -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLPZS35"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    <header id="top">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <div class="social align-items-center mr-2">
+          <a href="./index.html"><img src="./assets/ElementQ.png" width="32px"></a>
+          <a href="https://twitter.com/quarksources" class="fab fa-twitter"></a>
+          <a href="https://github.com/QuarkSources" class="fab fa-github"></a>
+        </div>
+        <button id="mode-switch">Switch Mode</button> <!-- Added mode switch button -->
+      </div>
+    </div>
+  </header>
+
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -131,5 +169,10 @@
       <script>window.jQuery || document.write('<script src="../resources/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../resources/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/24624db525.js" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('mode-switch').addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
 </body>
 </html>
